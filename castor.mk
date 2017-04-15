@@ -28,3 +28,7 @@ PRODUCT_COPY_FILES += \
 
 # Include non-opensource parts
 $(call inherit-product, vendor/sony/castor/castor-vendor.mk)
+
+# TWRP
+$(call inherit-product, device/sony/castor_windy/twrp.mk)
+
